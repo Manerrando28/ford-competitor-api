@@ -1,5 +1,12 @@
 # Ford Competitor Intelligence API — Sprint 3
 
+## Integrantes
+
+- Gabriel Guilherme Leste — RM 558638
+- Fernando Carlos Colque Huaranca — RM 558095
+- Gabriel Lacerda Araújo — RM 558307
+- Julia Carolina Ferreira Silva — RM 558896
+
 API REST para consultar e cadastrar especificações de veículos concorrentes da Ford. A entrega implementa autenticação JWT, autorização por perfil, recursos REST, documentação OpenAPI e testes automatizados.
 
 ## Tecnologias
@@ -210,9 +217,4 @@ Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
 
 Os cenários cobrem login, expiração, token malformado, acesso sem JWT, consulta autorizada, validação, autorização de `USER` e cadastro de `ADMIN`. Após uma execução, o relatório detalhado fica em `target/surefire-reports/com.ford.competitor.CompetitorApiTests.txt`.
 
-## Integrantes
 
-- Gabriel Guilherme Leste — RM 558638
-- Fernando Carlos Colque Huaranca — RM 558095
-- Gabriel Lacerda Araújo — RM 558307
-- Julia Carolina Ferreira Silva — RM 558896
